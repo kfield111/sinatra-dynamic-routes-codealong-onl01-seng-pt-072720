@@ -19,7 +19,8 @@ class App < Sinatra::Base
   end
 
   get "/multiply/:number1/:number2" do
-    result = number1.to_i * number2.to_i
+    "Test"
+    # result = number1.to_i * number2.to_i
   end
 
 end
